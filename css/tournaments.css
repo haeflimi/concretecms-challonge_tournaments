@@ -1,0 +1,85 @@
+/* Challonge Tournaments: built-in UI on top of Bootstrap 5 (themes may replace the views, see README). */
+
+.ct-block .ct-live-dot {
+    font-size: 0.55em;
+    vertical-align: middle;
+    animation: ct-pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes ct-pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.35; }
+}
+
+.ct-block .ct-card {
+    color: inherit;
+    transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.ct-block .ct-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.12);
+}
+
+.ct-block .ct-match-live {
+    border-left: 4px solid var(--bs-danger, #dc3545);
+}
+
+.ct-block .ct-match-complete .ct-sides {
+    opacity: 0.85;
+}
+
+.ct-block .ct-side.ct-winner {
+    font-weight: 700;
+}
+
+.ct-block .ct-side.ct-mine,
+.ct-block .ct-participant-list .ct-mine,
+.ct-block .ct-standings-table .ct-mine td {
+    color: var(--bs-info, #0dcaf0);
+}
+
+.ct-block .ct-score {
+    min-width: 4.5rem;
+    font-size: 1rem;
+    font-variant-numeric: tabular-nums;
+}
+
+.ct-block .ct-bracket-frame {
+    background: #1b1b1b;
+    border-radius: 0.5rem;
+    overflow: hidden;
+}
+
+.ct-block .ct-bracket-frame iframe {
+    display: block;
+    border: 0;
+}
+
+.ct-block .ct-participant-list {
+    columns: 2;
+    column-gap: 2rem;
+}
+
+@media (max-width: 575px) {
+    .ct-block .ct-participant-list {
+        columns: 1;
+    }
+}
+
+/* dashboard */
+.ct-sortable li {
+    cursor: grab;
+}
+
+.ct-sortable li.ct-dragging {
+    opacity: 0.4;
+}
+
+.ct-sortable .ct-handle {
+    cursor: grab;
+}
+
+.ct-matches tr.table-primary td {
+    --bs-table-bg: rgba(13, 110, 253, 0.08);
+}

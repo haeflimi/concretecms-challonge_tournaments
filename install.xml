@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<concrete5-cif version="1.0">
+    <blocktypes>
+        <blocktype handle="tournament_list" package="challonge_tournaments"/>
+        <blocktype handle="tournament_overview" package="challonge_tournaments"/>
+        <blocktype handle="my_matches" package="challonge_tournaments"/>
+    </blocktypes>
+    <blocktypesets>
+        <blocktypeset handle="social">
+            <blocktype handle="tournament_list"/>
+            <blocktype handle="tournament_overview"/>
+            <blocktype handle="my_matches"/>
+        </blocktypeset>
+    </blocktypesets>
+    <singlepages>
+        <page name="Tournaments" path="/dashboard/tournaments" filename="/dashboard/tournaments.php" pagetype=""
+              description="Challonge tournaments: link, seed from the team pools, sync, moderators and result reports" package="challonge_tournaments">
+            <attributes>
+                <attributekey handle="meta_keywords">
+                    <value>tournament, challonge, bracket, seeding, teams, matches, results</value>
+                </attributekey>
+            </attributes>
+        </page>
+    </singlepages>
+    <tasks>
+        <task handle="challonge_sync" package="challonge_tournaments"/>
+    </tasks>
+</concrete5-cif>

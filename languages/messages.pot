@@ -1,0 +1,1465 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: challonge_tournaments 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-10-18T01:37:08+00:00\n"
+"PO-Revision-Date: 2026-10-18T01:37:08+00:00\n"
+"Language: en_US\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: packages/challonge_tournaments/install.xml:17
+#: packages/challonge_tournaments/src/Figure/TournamentFigures.php:19
+#: packages/challonge_tournaments/src/Figure/TournamentFigures.php:26
+#: packages/challonge_tournaments/blocks/tournament_list/form.php:27
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:19
+#: packages/challonge_tournaments/blocks/my_matches/form.php:22
+msgid "Tournaments"
+msgstr ""
+
+#: packages/challonge_tournaments/install.xml:17
+msgid "Challonge tournaments: link, seed from the team pools, sync, moderators and result reports"
+msgstr ""
+
+#. Keywords for page /dashboard/tournaments
+#: packages/challonge_tournaments/install.xml:20
+msgid "tournament, challonge, bracket, seeding, teams, matches, results"
+msgstr ""
+
+#: packages/challonge_tournaments/controller.php:41
+msgid "Challonge Tournaments"
+msgstr ""
+
+#: packages/challonge_tournaments/controller.php:46
+msgid "Tournaments hosted on challonge.com: linked to events, seeded from the team pools, with participants, matches, standings and the bracket on the site and result reporting by the captains."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:99
+#: packages/challonge_tournaments/src/Seeding/Seeder.php:111
+msgid "Participants can only be added while the tournament is pending."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:108
+msgid "name: \"%s\" has already been taken"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:137
+#: packages/challonge_tournaments/src/Api/FakeClient.php:161
+#: packages/challonge_tournaments/src/Api/FakeClient.php:203
+#: packages/challonge_tournaments/src/Api/FakeClient.php:234
+#: packages/challonge_tournaments/src/Api/FakeClient.php:366
+#: packages/challonge_tournaments/src/Api/HttpClient.php:260
+msgid "Challonge does not know this tournament, participant or match."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:147
+#: packages/challonge_tournaments/src/Seeding/Seeder.php:201
+msgid "Seeds can only be changed while the tournament is pending."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:177
+msgid "Participants can only be cleared while the tournament is pending."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:188
+#: packages/challonge_tournaments/src/Seeding/Seeder.php:183
+msgid "Seeds can only be shuffled while the tournament is pending."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:207
+msgid "Only open matches can be reported."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:211
+#: packages/challonge_tournaments/src/Api/HttpClient.php:118
+msgid "The scores are not in the form \"3-1,2-3\"."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:214
+msgid "The winner does not play in this match."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:240
+msgid "Only open matches can be marked as underway."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:249
+msgid "Only complete matches can be reopened."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:255
+#: packages/challonge_tournaments/src/Api/HttpClient.php:129
+msgid "Unknown match state change: %s"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:270
+msgid "The tournament cannot be started from the state \"%s\"."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:273
+msgid "At least two participants are needed to start."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:281
+msgid "The tournament can only be finalized once every match is reported."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:304
+msgid "The fake Challonge does not support \"%s\"."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:306
+#: packages/challonge_tournaments/src/Api/HttpClient.php:141
+msgid "Unknown tournament state change: %s"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/FakeClient.php:621
+msgid "The following match is already complete; reopen it first."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:114
+msgid "Both sides of the match must be decided before a result can be reported."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:207
+msgid "No Challonge API key is configured."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:232
+#: packages/challonge_tournaments/src/Api/HttpClient.php:234
+msgid "Challonge could not be reached: %s"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:256
+msgid "Challonge rejected the API key."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:258
+msgid "The API key may not access this tournament."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:263
+msgid "Challonge rejected the request format."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:265
+msgid "Challonge rejected the request as invalid."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:267
+msgid "The Challonge API limit of the app is used up (429 Too Many Requests)."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/HttpClient.php:270
+msgid "Challonge answered with HTTP %s."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:35
+#: packages/challonge_tournaments/src/Api/TournamentState.php:41
+msgid "Start group stage"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:36
+#: packages/challonge_tournaments/src/Api/TournamentState.php:42
+msgid "Start tournament"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:38
+msgid "Process check-ins"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:38
+msgid "Abort check-in"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:44
+msgid "Finalize group stage"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:44
+#: packages/challonge_tournaments/src/Api/TournamentState.php:46
+msgid "Reset group stage"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:46
+msgid "Start final stage"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:48
+#: packages/challonge_tournaments/src/Api/TournamentState.php:50
+#: packages/challonge_tournaments/src/Api/TournamentState.php:52
+msgid "Reset tournament"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Api/TournamentState.php:50
+msgid "Finalize tournament"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:301
+msgid "Group %1$s, round %2$d"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:306
+msgid "Losers round %d"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:312
+msgid "Grand final"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:318
+msgid "Final"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:320
+msgid "Semifinal"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:322
+msgid "Quarterfinal"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:324
+msgid "Round of 16"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:328
+msgid "Round %d"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:335
+msgid "Not started"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:337
+msgid "Check-in"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:339
+msgid "Checked in"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:341
+msgid "Predictions open"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:343
+msgid "Group stage"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:345
+msgid "Group stage finished"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:347
+msgid "Running"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:349
+msgid "Awaiting review"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:351
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:381
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:152
+msgid "Finished"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:361
+msgid "Single elimination"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:363
+msgid "Double elimination"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:365
+msgid "Round robin"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:367
+msgid "Swiss"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:369
+msgid "Free for all"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:384
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:370
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:29
+#: packages/challonge_tournaments/blocks/my_matches/view.php:57
+msgid "Live"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:384
+msgid "Ready to play"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/Presenter.php:387
+msgid "Waiting"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/TournamentService.php:49
+msgid "Enter the URL of the tournament on Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/TournamentService.php:63
+msgid "The URL does not name a tournament."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/TournamentService.php:71
+msgid "\"%s\" is not a Challonge tournament URL or ID."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/TournamentService.php:89
+msgid "in the community \"%s\""
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/TournamentService.php:89
+msgid "Challonge does not know a tournament \"%s\"%s."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/TournamentService.php:95
+msgid "Challonge answered without a tournament ID."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Tournament/TournamentService.php:99
+msgid "The tournament \"%s\" is already linked."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Sync/SyncResult.php:78
+msgid "Sync failed: %s"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Sync/SyncResult.php:81
+msgid "No changes."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Sync/SyncResult.php:85
+msgid "state %s → %s"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Sync/SyncResult.php:89
+msgid "%d match changed"
+msgid_plural "%d matches changed"
+msgstr[0] ""
+msgstr[1] ""
+
+#: packages/challonge_tournaments/src/Sync/SyncResult.php:92
+msgid "participants changed"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Sync/SyncResult.php:95
+msgid "Changed."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Seeding/Seeder.php:138
+msgid "Challonge refused the participants: %s"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Seeding/Seeder.php:151
+#: packages/challonge_tournaments/src/Seeding/Seeder.php:167
+msgid "Participants can only be removed while the tournament is pending."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Seeding/Seeder.php:213
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:175
+msgid "Team"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:70
+#: packages/challonge_tournaments/src/Score/ScoreService.php:198
+msgid "This match is not open."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:75
+msgid "Both sides of the match must be decided first."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:80
+msgid "You may not report this match."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:83
+msgid "Choose the winner."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:87
+msgid "Enter the scores as \"16-9\" or, with several maps, \"16-9,10-16,16-12\"."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:101
+msgid "The scores say the other side won. Check the winner and the order of the scores (%s first)."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:136
+msgid "(disputes %s, reported by the other side)"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:151
+#: packages/challonge_tournaments/src/Score/ScoreService.php:165
+#: packages/challonge_tournaments/src/Score/ScoreService.php:180
+msgid "This report was already handled."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:154
+msgid "You may not confirm this report."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:168
+msgid "You may not reject this report."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:183
+msgid "Only the reporter may withdraw a report."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:201
+msgid "You may not change this match."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:225
+msgid "Only moderators may reopen a match."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Score/ScoreService.php:251
+msgid "Challonge did not accept the result: %s"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Command/Task/SyncTournamentsCommandHandler.php:40
+msgid "%d unopposed report written to Challonge."
+msgid_plural "%d unopposed reports written to Challonge."
+msgstr[0] ""
+msgstr[1] ""
+
+#: packages/challonge_tournaments/src/Command/Task/SyncTournamentsCommandHandler.php:44
+msgid "No tournament is due for a sync."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Command/Task/SyncTournamentsController.php:19
+msgid "Sync Challonge tournaments"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Command/Task/SyncTournamentsController.php:24
+msgid "Pulls the participants, matches and state of the running Challonge tournaments that are due for a sync."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Command/Task/SyncTournamentsController.php:34
+msgid "Challonge tournaments synced."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:34
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:355
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:370
+msgid "Unknown tournament."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:52
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:239
+msgid "Unknown match."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:59
+msgid "underway"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:59
+msgid "not underway"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:59
+msgid "Match marked as %s."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:64
+msgid "Match reopened."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:69
+msgid "Result written to Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:70
+msgid "Result reported. It is written to Challonge once the other team or a moderator confirms it."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:79
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:270
+msgid "Result confirmed and written to Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:88
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:284
+msgid "Report rejected."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:97
+msgid "Report withdrawn."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:105
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:266
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:280
+msgid "Unknown report."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:120
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:404
+msgid "Invalid request method."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Controller/Api.php:128
+msgid "Sign in to report results."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Figure/TournamentFigures.php:32
+msgid "Tournament participants"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Figure/TournamentFigures.php:38
+msgid "Matches played"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Figure/TournamentFigures.php:44
+msgid "Matches live now"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Figure/TournamentFigures.php:50
+msgid "Tournament winner"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Block/AbstractTournamentBlockController.php:45
+msgid "Challonge tournaments on the site."
+msgstr ""
+
+#: packages/challonge_tournaments/src/Block/AbstractTournamentBlockController.php:191
+msgid "Tournaments of this page's event"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Block/AbstractTournamentBlockController.php:192
+msgid "All tournaments"
+msgstr ""
+
+#: packages/challonge_tournaments/src/Block/AbstractTournamentBlockController.php:193
+msgid "Chosen tournaments"
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:77
+msgid "Tournament \"%s\" linked."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:122
+msgid "Tournament settings saved."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:136
+msgid "Synced with Challonge: %s"
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:148
+msgid "Tournament \"%s\" unlinked. It still exists on Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:159
+msgid "This state change is not possible right now."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:163
+msgid "%s: done. The tournament is now \"%s\"."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:175
+msgid "Choose at least one team."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:182
+msgid "%d participant added to Challonge."
+msgid_plural "%d participants added to Challonge."
+msgstr[0] ""
+msgstr[1] ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:192
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:207
+msgid "Unknown participant."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:197
+msgid "\"%s\" removed from the tournament."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:211
+msgid "Seed of \"%s\" changed."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:220
+msgid "Seeds shuffled."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:229
+msgid "All participants removed from the tournament."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:247
+msgid "Match %s reopened."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:252
+msgid "Match %s updated."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:256
+msgid "Result of match %s written to Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:314
+msgid "The community is the subdomain only, e.g. \"turicane\" for turicane.challonge.com."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:332
+msgid "Settings saved."
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:431
+msgid "— no event —"
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:439
+msgid "draft"
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:465
+msgid "— no team pool —"
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:471
+msgid "%d team"
+msgid_plural "%d teams"
+msgstr[0] ""
+msgstr[1] ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:482
+msgid "— none —"
+msgstr ""
+
+#: packages/challonge_tournaments/controllers/single_page/dashboard/tournaments.php:512
+msgid "system"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:46
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:54
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:447
+msgid "Settings"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:47
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:170
+msgid "Link tournament"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:52
+msgid "Fake Challonge active."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:53
+msgid "No API key is configured (or the fake client is forced in the settings): tournaments come from the built-in fake Challonge, nothing reaches challonge.com."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:61
+msgid "%d result report waits for confirmation."
+msgid_plural "%d result reports wait for confirmation."
+msgstr[0] ""
+msgstr[1] ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:75
+msgid "No tournament is linked yet."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:76
+msgid "Link the first tournament"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:81
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:458
+msgid "Event #%d"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:81
+msgid "Without event"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:85
+msgid "Tournament"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:86
+msgid "Game"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:87
+msgid "Type"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:88
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:347
+msgid "State"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:89
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:243
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:32
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:194
+msgid "Participants"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:90
+msgid "Last sync"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:99
+msgid "hidden"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:107
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:223
+msgid "never"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:109
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:197
+msgid "Open on Challonge"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:110
+msgid "Manage"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:127
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:196
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:528
+msgid "Back"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:134
+msgid "Challonge URL or ID"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:136
+msgid "Create the tournament on challonge.com first (type, game, rules, format). Paste its URL here; the participants, matches and state are then read from Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:138
+msgid "Fake Challonge tournaments:"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:146
+msgid "Community (subdomain)"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:148
+msgid "Only for tournaments of a Challonge community (name.challonge.com). A full URL overrides this."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:152
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:452
+msgid "Event"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:158
+msgid "The event pages show the tournaments of their event."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:161
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:463
+msgid "Team pool"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:167
+msgid "The teams (and singles) of this pool can be seeded into the tournament."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:198
+msgid "Sync now"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:202
+msgid "Fake Challonge active"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:202
+msgid "nothing reaches challonge.com."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:205
+msgid "Last sync failed:"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:217
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:140
+msgid "starts %s"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:223
+msgid "synced %s"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:230
+msgid "State on Challonge:"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:233
+msgid "Really? \"%s\" cannot be undone on Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:233
+msgid "Start the tournament on Challonge? Participants are locked afterwards."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:233
+msgid "Finalize the tournament on Challonge?"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:246
+msgid "Shuffle seeds"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:247
+msgid "Remove all"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:247
+msgid "Remove all participants from the tournament on Challonge?"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:252
+msgid "No participants on Challonge yet."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:255
+msgid "Seed"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:255
+msgid "Name"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:255
+msgid "Linked to"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:255
+msgid "Rank"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:269
+msgid "inactive"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:271
+msgid "Team #%d"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:272
+msgid "User #%d"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:278
+msgid "Remove \"%s\" from the tournament?"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:290
+msgid "Seed from the team pool"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:293
+msgid "The Team Manager package is not installed."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:295
+msgid "Choose a team pool in the settings on the right first."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:305
+msgid "Every team of the pool is in the tournament."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:309
+msgid "Tick the teams to add, drag to set the order (the seeds continue after the existing participants) or let the order be random."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:313
+msgid "Drag to reorder"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:324
+msgid "Random order"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:325
+msgid "Order as listed"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:326
+msgid "Add to Challonge"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:332
+msgid "On Challonge but not in the pool:"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:334
+msgid "Remove them above if they should not play."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:345
+msgid "Matches"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:345
+msgid "%1$d live, %2$d upcoming, %3$d finished"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:347
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:414
+msgid "Match"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:347
+msgid "Round"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:347
+msgid "Sides"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:347
+msgid "Result"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:357
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:359
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:34
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:38
+#: packages/challonge_tournaments/blocks/my_matches/view.php:59
+msgid "tbd"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:358
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:423
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:36
+#: packages/challonge_tournaments/blocks/my_matches/view.php:59
+msgid "vs"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:364
+msgid "reported: %1$s wins %2$s"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:370
+msgid "Not live"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:371
+msgid "Report"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:373
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:71
+msgid "Reopen"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:373
+msgid "Reopen match %s on Challonge? Following matches lose this result."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:383
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:81
+#: packages/challonge_tournaments/blocks/my_matches/view.php:92
+msgid "Winner"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:385
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:83
+msgid "— choose —"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:391
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:89
+#: packages/challonge_tournaments/blocks/my_matches/view.php:99
+msgid "Scores (%s first)"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:395
+msgid "Write to Challonge"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:409
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:589
+msgid "Result reports"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:409
+msgid "pending"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:411
+msgid "No results were reported on the site yet."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:414
+msgid "When"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:414
+msgid "Reported"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:414
+msgid "By"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:414
+msgid "Status"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:424
+msgid "wins"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:425
+msgid "side %d"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:433
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:50
+#: packages/challonge_tournaments/blocks/my_matches/view.php:72
+msgid "Confirm"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:434
+msgid "Reject"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:471
+msgid "Moderator group"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:477
+msgid "Its members confirm reports and may report any match. Administrators always can."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:480
+msgid "Position within the event"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:486
+msgid "Show on the site"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:491
+msgid "Captains may report results"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:493
+msgid "Save"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:499
+msgid "Challonge"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:502
+msgid "ID"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:503
+msgid "URL"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:504
+msgid "Community"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:505
+msgid "Embed"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:505
+msgid "bracket module"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:506
+msgid "Last change"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:513
+msgid "Unlinking removes the tournament from the site (participants, matches and reports here). Nothing changes on Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:514
+msgid "Unlink tournament"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:514
+msgid "Unlink \"%s\" from the site?"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:534
+msgid "Challonge API"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:536
+msgid "API key (v1)"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:537
+msgid "not set"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:538
+msgid "From %s (Developer Portal). Leave empty to keep the stored key. Free apps are limited to 500 requests per month: a sync is 3 requests, a report 2."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:540
+msgid "Remove the stored key"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:544
+msgid "Default community (subdomain)"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:550
+msgid "Use the fake Challonge even with a key (development)"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:554
+msgid "The fake Challonge is active. Its tournaments: %s."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:557
+msgid "Reset the fake Challonge to its fixtures on save"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:561
+msgid "Sync"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:564
+msgid "Sync interval (minutes)"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:566
+msgid "The task \"Sync Challonge tournaments\" skips tournaments synced more recently. Schedule the task under System › Automation."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:569
+msgid "Sync on view after (minutes, 0 = never)"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:571
+msgid "A running tournament opened in the dashboard or on a page is synced if its data is older than this."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:576
+msgid "Bracket embed"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:579
+msgid "Challonge theme ID"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:580
+msgid "default"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:581
+msgid "The numeric theme of the bracket module (Challonge › tournament › Settings › Bracket themes)."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:584
+msgid "Size multiplier"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:591
+msgid "Global moderator group"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:597
+msgid "Its members moderate every tournament. Each tournament may add its own group."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:600
+msgid "Auto-confirm unopposed reports after (minutes, 0 = off)"
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:602
+msgid "A captain's report nobody confirmed or rejected within this time is written to Challonge by the sync task."
+msgstr ""
+
+#: packages/challonge_tournaments/single_pages/dashboard/tournaments.php:606
+msgid "Save settings"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/controller.php:29
+msgid "Tournament List"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/controller.php:34
+msgid "The Challonge tournaments of the event: game, state and participants, linking to the tournament page."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/form.php:19
+#: packages/challonge_tournaments/blocks/my_matches/form.php:14
+msgid "Title"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/form.php:20
+#: packages/challonge_tournaments/blocks/my_matches/form.php:15
+msgid "optional"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/form.php:23
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:14
+#: packages/challonge_tournaments/blocks/my_matches/form.php:18
+msgid "Which tournaments"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/form.php:29
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:21
+#: packages/challonge_tournaments/blocks/my_matches/form.php:24
+msgid "No tournament is linked yet (Dashboard › Tournaments)."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/form.php:36
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:28
+msgid "Show finished tournaments"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/form.php:39
+msgid "Tournament page"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/form.php:41
+msgid "A page with the Tournament Overview block. Without it the cards link to Challonge."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/view.php:18
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:113
+msgid "No tournaments yet."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/view.php:34
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:139
+msgid "%d participant"
+msgid_plural "%d participants"
+msgstr[0] ""
+msgstr[1] ""
+
+#: packages/challonge_tournaments/blocks/tournament_list/view.php:35
+msgid "%d match live"
+msgid_plural "%d matches live"
+msgstr[0] ""
+msgstr[1] ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/controller.php:42
+msgid "Tournament Overview"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/controller.php:47
+msgid "A Challonge tournament in full: participants, matches with result reporting, standings and the bracket."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:16
+msgid "Several tournaments are shown as tabs. The Tournament List block may pick one with ?tournament=."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:36
+msgid "Matches (with result reporting)"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:40
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:173
+msgid "Standings"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:44
+msgid "Bracket (embedded from Challonge)"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:48
+msgid "Bracket height (px)"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:52
+msgid "Refresh every (seconds, 0 = off)"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/form.php:54
+msgid "The page checks for changes (no Challonge requests) and reloads if there are any."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:31
+msgid "result reported"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:45
+#: packages/challonge_tournaments/blocks/my_matches/view.php:70
+msgid "%1$s wins %2$s"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:46
+msgid "your report, waiting for the other team or a moderator"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:46
+msgid "reported by the other team: do you agree?"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:46
+msgid "waiting for confirmation"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:51
+#: packages/challonge_tournaments/blocks/my_matches/view.php:73
+msgid "Disagree"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:54
+#: packages/challonge_tournaments/blocks/my_matches/view.php:75
+msgid "Withdraw"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:63
+#: packages/challonge_tournaments/blocks/my_matches/view.php:79
+msgid "Not live anymore"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:63
+#: packages/challonge_tournaments/blocks/my_matches/view.php:79
+msgid "We are playing"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:66
+#: packages/challonge_tournaments/blocks/my_matches/view.php:82
+msgid "Report result"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:68
+msgid "Report differently"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:71
+msgid "Reopen this match on Challonge?"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:93
+#: packages/challonge_tournaments/blocks/my_matches/view.php:102
+msgid "Send"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:96
+#: packages/challonge_tournaments/blocks/my_matches/view.php:104
+msgid "One score per map, separated by commas. The other team or a moderator confirms before it counts."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:145
+#: packages/challonge_tournaments/blocks/my_matches/view.php:42
+msgid "on Challonge"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:152
+msgid "Live now"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:152
+msgid "Upcoming"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:166
+msgid "The matches appear once the tournament is started."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:173
+msgid "Final standings"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:175
+msgid "W"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:175
+msgid "L"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:175
+msgid "Map / set difference"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:197
+msgid "your team"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:207
+msgid "Bracket"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:215
+#: packages/challonge_tournaments/blocks/my_matches/view.php:31
+msgid "Sign in"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/tournament_overview/view.php:215
+msgid "to report the results of your team."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/controller.php:33
+msgid "My Matches"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/controller.php:38
+msgid "The signed-in player's matches in the running Challonge tournaments, with result reporting for captains."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/form.php:31
+msgid "Include finished tournaments"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/form.php:35
+msgid "Show finished matches"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/view.php:31
+msgid "to see your matches."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/view.php:33
+msgid "You are not playing in a running tournament."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/view.php:41
+msgid "as %s"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/view.php:45
+msgid "The tournament has not started yet."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/view.php:45
+msgid "No match for you right now."
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/view.php:62
+msgid "won"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/view.php:62
+msgid "lost"
+msgstr ""
+
+#: packages/challonge_tournaments/blocks/my_matches/view.php:64
+msgid "waiting for the previous matches"
+msgstr ""

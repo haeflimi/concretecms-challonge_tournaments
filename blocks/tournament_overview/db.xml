@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.concrete5.org/doctrine-xml/0.5" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.concrete5.org/doctrine-xml/0.5 https://concrete5.github.io/doctrine-xml/doctrine-xml-0.5.xsd">
+    <table name="btChallongeTournamentOverview">
+        <field name="bID" type="integer"><unsigned/><key/></field>
+        <field name="mode" type="string" size="16"><default value="event"/></field>
+        <field name="tournamentIDs" type="string" size="255"><default value=""/></field>
+        <field name="showCompleted" type="boolean"><default value="1"/></field>
+        <field name="showParticipants" type="boolean"><default value="1"/></field>
+        <field name="showMatches" type="boolean"><default value="1"/></field>
+        <field name="showStandings" type="boolean"><default value="1"/></field>
+        <field name="showBracket" type="boolean"><default value="1"/></field>
+        <field name="bracketHeight" type="integer"><unsigned/><default value="500"/></field>
+        <field name="refreshSeconds" type="integer"><unsigned/><default value="60"/></field>
+    </table>
+</schema>
